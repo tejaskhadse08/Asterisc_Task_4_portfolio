@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tejas Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script>
+      // Smooth scrolling when clicking on menu items
+  document.addEventListener('DOMContentLoaded', function() {
+  const links = document.querySelectorAll('nav ul li a');
+  
+  for (const link of links) {
+    link.addEventListener('click', clickHandler);
+  }
+  
+  function clickHandler(e) {
+    e.preventDefault();
+    const href = this.getAttribute('  ');
+    const offsetTop = document.querySelector(href).offsetTop;
+  
+    scroll({
+      top: offsetTop,
+      behavior: 'smooth'
+    });
+  }
+  });
+  
+    </script>
+  </head>
+  
+  <body>
+    <div class="hero">
+      <span
+        ><img
+          src="pictures/starlogo.jpg"
+          alt="logo"
+          style="width: 150px; padding: 20px 0 0 40px"
+      /></span>
+      <span style="font-size: larger; float: right; padding: 30px 30px 0 0">
+        <nav>
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home"
+                ><b style="color: black">Home</b></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about"><b style="color: black">About</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects"
+                ><b style="color: black">Projects</b></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services"
+                ><b style="color: black">Services</b></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><b style="color: black">Hire me</b></a
+              >
+            </li>
+          </ul>
+        </nav>
+      </span>
+      <br /><br /><br /><br /><br /><br /><br />
+      <div class="infocontainer">
+        <div class="devinfo" style="padding-left: 70px">
+          <div class="hello"><span>Hello, I am</span></div>
+          <div class="name"><span>Tejas Khadse</span></div>
+          <div class="about">
+            <span
+              ><b>Front-End developer|Social media Manager </b><br /><b
+                >|Programmer|</b
+              ></span
+            >
+          </div>
+          <br />
+          <div class="button">
+            <a href="Tejas Khadse Resume.pdf" target="_blank">
+              <button>Download CV</button></a
+            >
+            <a href="contact.html" target="_blank">
+              <button>Contact Me</button></a
+            >
+          </div>
+        </div>
+        <br />
+
+        <div class="devpic">
+          <img
+            src="pictures/imgbg.png"
+            alt="Background of image"
+            class="shape"
+            style="width: 800px; height: 800px; padding-top: 100px"
+          />
+          <img
+            src="pictures/half.jpg.png"
+            alt="My logo"
+            class="boy"
+            style="padding-bottom: 25px"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid" id="about" style="background-color: black">
+      <br /><br /><br /><br /><br /><br />
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col-4">
+          <img
+            class="card-img- down"
+            src="pictures/fullpic.jpg"
+            alt="Card image"
+            style="width: 300px; margin-left: 130px"
+          />
+        </div>
+        <div class="col-4" style="text-align: justify" >
+          <h1 class="about" style="color: white"><b>About Me</b></h1>
+          <p style="color: lightgrey">
+            Hello! My name is Tejas Khadse, Passionate Skilled, collaborative,
+            and attentive Frontend Web Developer. My specialties are HTML5 ,
+            CSS3, Bootstrap4 ,C, C++ , Javascript,Python. I am a learner and
+            explorer constantly seeking better quality, efficiency, and a
+            healthy environment and I enjoy problem-solving and learning from
+            the challenges that come along. Thus, the challenges bring the best
+            out of me. I am currently exploring more and more things to enhance
+            my skills. and I am looking for an environment that will allow me to
+            implement the best of my knowledge.
+          </p>
+          <div class="row">
+            <div class="col-12">
+              <!-- Nav tabs -->
+              <ul class="nav nav-tabs" role="tablist" style="border: none">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    data-bs-toggle="tab"
+                    href="#home"
+                    style="color: rgb(245, 27, 245); background-color: black"
+                    >My Skills</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    data-bs-toggle="tab"
+                    href="#menu1"
+                    style="color: rgb(245, 27, 245); background-color: black"
+                    >Experiences</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link"
+                    data-bs-toggle="tab"
+                    href="#menu2"
+                    style="color: rgb(245, 27, 245); background-color: black"
+                    >Education</a
+                  >
+                </li>
+              </ul>
+
+              <!-- Tab panes -->
+              <div class="tab-content">
+                <div id="home" class="container tab-pane active">
+                  <br />
+
+                  <div class="progress">
+                    <div class="progress-bar" style="width: 100%">HTML5</div>
+                  </div>
+                  <br />
+                  <div class="progress">
+                    <div class="progress-bar" style="width: 90%">CSS3</div>
+                  </div>
+                  <br />
+                  <div class="progress">
+                    <div class="progress-bar" style="width: 65%">
+                      Javascript
+                    </div>
+                  </div>
+                  <br />
+                  <div class="progress">
+                    <div class="progress-bar" style="width: 85%">Bootstrap</div>
+                  </div>
+                  <br />
+                  <h6 style="color: rgb(255, 0, 140)">And many more....</h6>
+                </div>
+                <div id="menu1" class="container tab-pane fade">
+                  <br />
+                  <ul style="color: rgb(255, 0, 140)">
+                    <li>
+                      Asterisc Technocrat :
+                      <p style="color: white">Web developer intern</p>
+                    </li>
+                    <br /><br /><br />
+                    <li>
+                      Ankhub Tedchnologies :
+                      <p style="color: white">UI/IX development</p>
+                    </li>
+                    <br /><br /><br />
+                    <li>
+                      CODE CLAUSE :
+                      <p style="color: white">Python developer intern</p>
+                    </li>
+                    <br /><br /><br />
+                    <li>
+                      OASIS INFOBYTE :
+                      <p style="color: white">Web developer intern</p>
+                    </li>
+                  </ul>
+                </div>
+                <div id="menu2" class="container tab-pane fade">
+                  <br />
+                  <ul style="color: rgb(255, 0, 140)">
+                    <li>
+                      Postgraduation :
+                      <p style="color: white">
+                        Jhulelal Institude of Technology <br />
+                        CSE Branch, RTMNU university (2020-2024)
+                      </p>
+                    </li>
+                    <br /><br /><br /><br /><br />
+                    <li>
+                      Junior College :
+                      <p style="color: white">
+                        Seth Porwal College <br />
+                        State Board (2018-2020)
+                      </p>
+                    </li>
+                    <br /><br /><br /><br /><br />
+                    <li>
+                      High School :
+                      <p style="color: white">
+                        Swami Awadheshanad Public School <br />
+                        CBSE Board (2008-2018)
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br /><br /><br /><br />
+
+      <!-- <div class="ep">
+        <h1>My Experiences</ha1>
+
+
+        
+     </div> -->
+      <hr style="background-color: lightgray; height: 05px" />
+      <br />
+      <!-- Skills section -->
+
+      <h1 style="color: white">&nbsp;&nbsp; Skills</h1>
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col-1">
+          <img src="pictures/htmll.jpg" alt="image" style="height: 75px" />
+        </div>
+        <div class="col-1"></div>
+        <div class="col-1">
+          <img src="pictures/cssl.jpg" alt="image" style="height: 100px" />
+        </div>
+        <div class="col-1"></div>
+        <div class="col-1">
+          <img src="pictures/java.jpg" alt="image" style="height: 75px" />
+        </div>
+        <div class="col-1"></div>
+        <div class="col-1">
+          <img src="pictures/boot.jpg" alt="image" style="height: 75px" />
+        </div>
+        <div class="col-1"></div>
+        <div class="col-2"></div>
+      </div>
+      <br />
+      <br />
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col-2">
+          <img src="pictures/pyl.jpg" alt="" style="height: 75px" ` />
+        </div>
+        <div class="col-2">
+          <img src="pictures/sqll.jpg" alt="" style="height: 75px" ` />
+        </div>
+        <div class="col-2">
+          <img src="pictures/sales.jpg" alt="" style="height: 75px" />
+        </div>
+        <div class="col-3"></div>
+      </div>
+      <br />
+      <hr style="background-color: lightgray; height: 05px" />
+      <br />
+
+      <!-- Work section -->
+
+      <h1 style="color: white">&nbsp;&nbsp; My Work</h1>
+      <!-- work 1 -->
+      <div class="image-container" style="margin-left: 50px; margin-top: 10px">
+        <img src="pictures/chalo.jpg" alt="Image" style="height: 300px" />
+        <div class="overlay">
+          <br /><br /><br />
+          <h2>Chalo Nagpur</h2>
+          <p>Hybrid Tourist guide Application <br />Based on Nagpur Tourism</p>
+          <br /><br />
+          <a href="https://cdmzgm.csb.app/" target="_blank">
+            <button
+              style="
+                background-color: darkblue;
+                color: white;
+                border-radius: 10px;
+                width: 70px;
+              "
+            >
+              View
+            </button></a
+          >
+        </div>
+      </div>
+
+      <div class="image-container" style="margin-left: 50px; margin-top: 10px">
+        <img src="pictures/work2.jpg" alt="Pizza Hut" style="height: 300px" />
+        <div class="overlay">
+          <br /><br /><br />
+          <h2>Pizza Hut Clone</h2>
+          <br /><br />
+          <a href="https://tejaskhadse08.github.io/pizaa/#" target="_blank">
+            <button
+              style="
+                background-color: darkblue;
+                color: white;
+                border-radius: 10px;
+                width: 70px;
+              "
+            >
+              View
+            </button></a
+          >
+        </div>
+      </div>
+
+      <br />
+      <hr style="background-color: lightgray; height: 05px" />
+      <br />
+
+      <!-- Achievement section -->
+
+      <h1 style="color: white">&nbsp;&nbsp; Achievements</h1>
+      <br />
+      <div class="row">
+        <div class="col-4">
+          <div class="image-container" style="margin-left: 50px">
+            <img src="pictures/achi1.jpg" alt="1" style="height: 350px" />
+            <div class="overlay">
+              <br /><br /><br />
+              <h2>AI Odessey Winner</h2>
+              <p>Won 1st prize in<br />National Level tech-event</p>
+              <br /><br />
+              <a
+                href="https://www.linkedin.com/posts/tejas-khadse-236391225_warm-greetings-to-all-my-connections-activity-7048185795211378688-FQoE?utm_source=share&utm_medium=member_desktop"
+                target="_blank"
+              >
+                <button
+                  style="
+                    background-color: darkblue;
+                    color: white;
+                    border-radius: 10px;
+                    width: 100px;
+                  "
+                >
+                  Read More
+                </button></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="image-container" style="margin-left: 50px">
+            <img src="pictures/achi2.jpg" alt="1" style="height: 350px" />
+            <div class="overlay">
+              <br /><br /><br />
+              <h2>Techtrix 2023</h2>
+              <p>2nd runner up<br />National Level tech-event</p>
+              <br /><br />
+              <a
+                href="https://www.linkedin.com/posts/tejas-khadse-236391225_opportunity-experience-debatecompetition-activity-7042853254610776064-AylA?utm_source=share&utm_medium=member_desktop"
+                target="_blank"
+              >
+                <button
+                  style="
+                    background-color: darkblue;
+                    color: white;
+                    border-radius: 10px;
+                    width: 100px;
+                  "
+                >
+                  Read More
+                </button></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="image-container" style="margin-left: 50px">
+            <img src="pictures/achi3.jpg" alt="1" style="height: 350px" />
+            <div class="overlay">
+              <br /><br /><br />
+              <h2>Rotaract journey tenure 2021-22</h2>
+              <br /><br />
+              <a
+                href="https://www.linkedin.com/posts/tejas-khadse-236391225_my-rotaract-journey-activity-7080044478287216640-RpQE?utm_source=share&utm_medium=member_desktop"
+                target="_blank"
+              >
+                <button
+                  style="
+                    background-color: darkblue;
+                    color: white;
+                    border-radius: 10px;
+                    width: 100px;
+                  "
+                >
+                  Read More
+                </button></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <hr style="background-color: lightgray; height: 05px" />
+      <br />
+
+      <!-- Contact form -->
+
+      <h1 style="color: white">&nbsp;&nbsp; Contact Me</h1>
+      <br />
+      <div class="contact" style="justify-content: left;align-items: left;display: flex;">
+        <div class="contact-info">
+          <a href="mailto:tejaskhadse88@gmail.com"
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-paper-plane"></i>tejaskhadse88@gmail.com</a
+          ><br /><br>
+          <a href="tel:+917350063114"
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-phone"></i>+91 7350063114</a
+          ><br /><br>
+          <a href="https://github.com/tejaskhadse08"
+            >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fab fa-github"></i>tejaskhadse08</a
+          ><br /><br>
+          <a href="https://www.linkedin.com/in/tejas-khadse-236391225"
+            >&nbsp;&nbsp;&nbsp;<i class="fab fa-linkedin"></i>Tejas Khadse</a
+          >
+        </div><br><br><br>
+      </div>
+
+      <!-- <h1 style="color: white">&nbsp;&nbsp; Contact Me</h1>
+      <br />
+      <div class="contact">
+        <div class="gmail">
+          <i class="fa-solid fa-paper-plane" style="color: #ff004f;"></i>
+          <h2>tejaskhadse88@gmail.com</h2>
+        </div>
+
+      </div>
+
+ -->
+
+      <!-- <form style="background-color: lightgrey">
+        <div class="form-group">
+          <br />
+          <h1 style="text-align: center">Contact Me</h1>
+          <label for="formGroupExampleInput" style="font-size: 20px"
+            ><b>Name</b></label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="formGroupExampleInput"
+            placeholder="Enter your Name "
+          />
+        </div>
+        <div class="form-group">
+          <label for="formGroupExampleInput2" style="font-size: 20px"
+            ><b>Email</b></label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="formGroupExampleInput2"
+            placeholder="Enter you Email"
+          />
+        </div>
+        <br />
+        <div class="button">
+          <button>Submit</button>
+        </div>
+        <br />
+      </form> -->
+
+      <br />
+    </div>
+    <div class="footer">
+      <h5>Copyright &copy; 2023 Tejas Khadse ❤️</h5>
+    </div>
+    
+  </body>
+</html>
